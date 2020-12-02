@@ -1,0 +1,9 @@
+# To get all categories
+query{
+  categories{
+    id
+    name
+    parentId
+    users
+  }
+}

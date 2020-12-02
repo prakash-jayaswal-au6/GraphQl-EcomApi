@@ -1,0 +1,4 @@
+# To delete the User via id
+mutation{
+  deleteUser(id:"5fc59d73337c243dbce3a372")
+}

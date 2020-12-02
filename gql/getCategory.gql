@@ -1,0 +1,7 @@
+# to get Single category
+query{
+  category(id:"5fc4a3e183fc0f2518671310"){
+    id
+    users
+  }
+}

@@ -1,0 +1,4 @@
+# To delete the Category via id
+mutation{
+  deleteUser(id:"5fc2dd8dabae243b74edb327")
+}

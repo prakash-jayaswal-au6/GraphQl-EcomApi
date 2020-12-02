@@ -1,0 +1,8 @@
+# To get All users
+query{
+  users{
+    id 
+    name
+    categories
+  }
+}

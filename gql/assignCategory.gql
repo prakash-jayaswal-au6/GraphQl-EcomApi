@@ -1,0 +1,9 @@
+# To assign Category to the User
+mutation{
+  assignCategory(id:"5fc59c9930b7331b6cb3c988",catId:"5fc2dd8dabae243b74edb327"){
+    id
+    name
+    categories
+    createdAt
+  }
+}

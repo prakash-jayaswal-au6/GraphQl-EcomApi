@@ -1,0 +1,7 @@
+# to get Single user
+query{
+  user(id:"5fc59c7e30b7331b6cb3c987"){
+    id
+    categories
+  }
+}

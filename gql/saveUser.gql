@@ -1,0 +1,15 @@
+# To create or update user
+mutation{
+  saveUser(name:"sunil updated",id:"5fc59cab30b7331b6cb3c989"){
+    name
+    id
+  }
+}
+
+//If id not pass then create it
+mutation{
+  saveUser(name:"prakash created"){
+    name
+    id
+  }
+}
